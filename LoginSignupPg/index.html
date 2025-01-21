@@ -31,7 +31,7 @@
                         <i class="fa-solid fa-lock"></i>
                         <input type="password" placeholder="Password">
                     </div>
-                    <p>Forget Password <a href="#">Click Here!</a></p>
+                    <p id="forgetPass">Already have an account?<a href="#">Click Here!</a></p>
                    <div class="btn-fld">
                        <button type="button" id="sBtn" >Sign Up</button>
                        <button type="button" id="lBtn" class="disable">Login</button>
@@ -40,17 +40,6 @@
             </form>
         </div>
     </div>
-    <script>
-        let signupBtn = document.getElementById('signupBtn');
-        let loginBtn = document.getElementById('loginBtn');
-        let nameFld = document.getElemrntById('nameFld');
-        let sBtn = document.getElementById("sBtn");
-        let lBtn = document.getElementById("lBtn");
-
-        loginBtn.onclick = function(){
-            nameFld.style.maxHeight = '0px';
-        }
-
-    </script>
+    <script src="./index.js"></script>
 </body>
 </html>
